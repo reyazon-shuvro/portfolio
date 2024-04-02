@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Nav Section */
+.navbar {
+  margin-bottom: 0;
+  background-color: #f4511e;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navbar li a,
+.navbar .navbar-brand {
+  color: #fff !important;
+}
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: #f4511e !important;
+  background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+/* NAv section End */
+.half-side {
+  width: 35% !important;
+  float: left !important;
+  margin-left: 10px !important;
+}
+
+.bg-color0 {
+  background-color: #f4511e;
+}
+.bg-color1 {
+  background-color: blueviolet;
+}
+
+.bg-color2 {
+  background-color: darkred;
+}
+.bg-color3 {
+  background-color: darkblue;
+}
+.bg-color4 {
+  background-color: purple;
+}
+.bg-color5 {
+  background-color: blue;
+}
+
+.card-bg {
+  height: 800px;
+}
+.card-bg1 {
+  height: 600px;
+}
+
+.bg-img {
+  background-image: url("bg/bg-3.0.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+.sp {
+  margin-right: 10px;
+  color: white;
+}
+
+.h-20 {
+  height: 500px;
+}
+.h-20 img {
+  height: 100%;
+}
+.home {
+  background-image: url("bg/bg-1.jpg");
+  background-repeat: no-repeat;
+  height: 700px;
+}
+.a-justify {
+  text-align: justify;
+}
+.w-size {
+  font-size: 25px;
+}
+.w-size1 {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  color: orange;
+}
+
+.typewriter {
+  position: relative;
+  font-size: 25px;
+  border-right: 5px solid;
+  width: 220px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(18) infinite alternate,
+    cursor 0.4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-bg {
+    height: 300px !important;
+  }
+  .card-bg1 {
+    height: 300px !important;
+  }
+}
