@@ -71,6 +71,10 @@ html {
   background-repeat: no-repeat;
 }
 
+.img-height {
+  height: 100%;
+}
+
 .sp {
   margin-right: 10px;
   color: white;
